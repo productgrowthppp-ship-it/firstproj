@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miro Canvas - 3 Divergent Prototypes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            height: 100vh;
+        }
+
+        .prototype {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .prototype-header {
+            padding: 15px;
+            background: #4262ff;
+            color: white;
+            font-weight: 600;
+        }
+
+        .prototype-info {
+            padding: 10px 15px;
+            font-size: 12px;
+            color: #666;
+            background: #f9f9f9;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .canvas-wrapper {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            cursor: grab;
+        }
+
+        .canvas-wrapper:active {
+            cursor: grabbing;
+        }
+
+        /* Prototype 1: SVG-based */
+        #svg-canvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        .svg-element {
+            cursor: move;
+        }
+
+        .svg-element:hover rect,
+        .svg-element:hover circle {
+            stroke: #4262ff;
+            stroke-width: 2;
+        }
+
+        /* Prototype 2: Canvas API */
+        #pixel-canvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Prototype 3: DOM-based */
+        #dom-canvas {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background:
+                linear-gradient(90deg, #e0e0e0 1px, transparent 1px),
+                linear-gradient(#e0e0e0 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+
+        .dom-element {
+            position: absolute;
+            padding: 15px 25px;
+            background: #fff;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            cursor: move;
+            user-select: none;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: box-shadow 0.2s;
+        }
+
+        .dom-element:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            border-color: #4262ff;
+        }
+
+        .controls {
+            padding: 10px 15px;
+            background: #f9f9f9;
+            border-top: 1px solid #e0e0e0;
+            font-size: 11px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Prototype 1: SVG-based Canvas -->
+        <div class="prototype">
+            <div class="prototype-header">1. SVG Transform</div>
+            <div class="prototype-info">Vector-based, infinite precision, DOM events</div>
+            <div class="canvas-wrapper" id="svg-wrapper">
+                <svg id="svg-canvas">
+                    <defs>
+                        <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                            <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+                        </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#grid)" />
+                    <g id="svg-viewport">
+                        <g class="svg-element" data-id="1">
+                            <rect x="50" y="50" width="120" height="80" fill="#ffd700" stroke="#333" stroke-width="1" rx="4"/>
+                            <text x="110" y="95" text-anchor="middle" font-size="14">Sticky Note</text>
+                        </g>
+                        <g class="svg-element" data-id="2">
+                            <circle cx="250" cy="90" r="40" fill="#ff6b9d" stroke="#333" stroke-width="1"/>
+                            <text x="250" y="95" text-anchor="middle" font-size="14" fill="white">Idea</text>
+                        </g>
+                        <g class="svg-element" data-id="3">
+                            <rect x="150" y="180" width="140" height="60" fill="#4ecdc4" stroke="#333" stroke-width="1" rx="4"/>
+                            <text x="220" y="215" text-anchor="middle" font-size="14">Action Item</text>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="controls">Drag: Pan | Scroll: Zoom | Drag shapes to move</div>
+        </div>
+
+        <!-- Prototype 2: Canvas API -->
+        <div class="prototype">
+            <div class="prototype-header">2. Canvas API</div>
+            <div class="prototype-info">Pixel-based, high performance, manual rendering</div>
+            <div class="canvas-wrapper" id="canvas-wrapper">
+                <canvas id="pixel-canvas"></canvas>
+            </div>
+            <div class="controls">Drag: Pan | Scroll: Zoom | Click shapes to select</div>
+        </div>
+
+        <!-- Prototype 3: DOM/CSS Transform -->
+        <div class="prototype">
+            <div class="prototype-header">3. CSS Transform</div>
+            <div class="prototype-info">HTML elements, native browser features, easy styling</div>
+            <div class="canvas-wrapper" id="dom-wrapper">
+                <div id="dom-canvas">
+                    <div class="dom-element" style="left: 50px; top: 50px;">Design Sprint</div>
+                    <div class="dom-element" style="left: 200px; top: 50px;">User Research</div>
+                    <div class="dom-element" style="left: 50px; top: 150px;">Prototype</div>
+                    <div class="dom-element" style="left: 200px; top: 150px;">Test</div>
+                    <div class="dom-element" style="left: 125px; top: 250px;">Ship!</div>
+                </div>
+            </div>
+            <div class="controls">Drag: Pan | Scroll: Zoom | Drag cards to move</div>
+        </div>
+    </div>
+
+    <script>
+        // Prototype 1: SVG-based Canvas
+        class SVGCanvas {
+            constructor(svgId, wrapperId) {
+                this.svg = document.getElementById(svgId);
+                this.wrapper = document.getElementById(wrapperId);
+                this.viewport = document.getElementById('svg-viewport');
+                this.viewBox = { x: 0, y: 0, width: 800, height: 600 };
+                this.isPanning = false;
+                this.startPoint = { x: 0, y: 0 };
+                this.scale = 1;
+                this.draggedElement = null;
+                this.dragOffset = { x: 0, y: 0 };
+
+                this.init();
+            }
+
+            init() {
+                this.updateViewBox();
+
+                this.wrapper.addEventListener('mousedown', (e) => {
+                    if (e.target.closest('.svg-element')) {
+                        this.startDragElement(e);
+                    } else {
+                        this.startPan(e);
+                    }
+                });
+
+                this.wrapper.addEventListener('mousemove', (e) => {
+                    if (this.draggedElement) {
+                        this.dragElement(e);
+                    } else if (this.isPanning) {
+                        this.pan(e);
+                    }
+                });
+
+                this.wrapper.addEventListener('mouseup', () => {
+                    this.endPan();
+                    this.endDragElement();
+                });
+
+                this.wrapper.addEventListener('wheel', (e) => this.zoom(e));
+            }
+
+            startDragElement(e) {
+                this.draggedElement = e.target.closest('.svg-element');
+                const transform = this.draggedElement.getAttribute('transform') || '';
+                const match = transform.match(/translate\(([^,]+),([^)]+)\)/);
+                const currentX = match ? parseFloat(match[1]) : 0;
+                const currentY = match ? parseFloat(match[2]) : 0;
+
+                const pt = this.svg.createSVGPoint();
+                pt.x = e.clientX;
+                pt.y = e.clientY;
+                const svgPt = pt.matrixTransform(this.svg.getScreenCTM().inverse());
+
+                this.dragOffset = { x: svgPt.x - currentX, y: svgPt.y - currentY };
+                e.stopPropagation();
+            }
+
+            dragElement(e) {
+                if (!this.draggedElement) return;
+
+                const pt = this.svg.createSVGPoint();
+                pt.x = e.clientX;
+                pt.y = e.clientY;
+                const svgPt = pt.matrixTransform(this.svg.getScreenCTM().inverse());
+
+                const newX = svgPt.x - this.dragOffset.x;
+                const newY = svgPt.y - this.dragOffset.y;
+
+                this.draggedElement.setAttribute('transform', `translate(${newX}, ${newY})`);
+            }
+
+            endDragElement() {
+                this.draggedElement = null;
+            }
+
+            startPan(e) {
+                this.isPanning = true;
+                this.startPoint = { x: e.clientX, y: e.clientY };
+            }
+
+            pan(e) {
+                if (!this.isPanning) return;
+                const dx = (e.clientX - this.startPoint.x) * (this.viewBox.width / this.wrapper.clientWidth);
+                const dy = (e.clientY - this.startPoint.y) * (this.viewBox.height / this.wrapper.clientHeight);
+                this.viewBox.x -= dx;
+                this.viewBox.y -= dy;
+                this.startPoint = { x: e.clientX, y: e.clientY };
+                this.updateViewBox();
+            }
+
+            endPan() {
+                this.isPanning = false;
+            }
+
+            zoom(e) {
+                e.preventDefault();
+                const delta = e.deltaY > 0 ? 1.1 : 0.9;
+                const newWidth = this.viewBox.width * delta;
+                const newHeight = this.viewBox.height * delta;
+                const dx = (newWidth - this.viewBox.width) / 2;
+                const dy = (newHeight - this.viewBox.height) / 2;
+                this.viewBox.x -= dx;
+                this.viewBox.y -= dy;
+                this.viewBox.width = newWidth;
+                this.viewBox.height = newHeight;
+                this.updateViewBox();
+            }
+
+            updateViewBox() {
+                this.svg.setAttribute('viewBox',
+                    `${this.viewBox.x} ${this.viewBox.y} ${this.viewBox.width} ${this.viewBox.height}`);
+            }
+        }
+
+        // Prototype 2: Canvas API
+        class CanvasAPI {
+            constructor(canvasId, wrapperId) {
+                this.canvas = document.getElementById(canvasId);
+                this.wrapper = document.getElementById(wrapperId);
+                this.ctx = this.canvas.getContext('2d');
+                this.camera = { x: 0, y: 0, zoom: 1 };
+                this.isPanning = false;
+                this.startPoint = { x: 0, y: 0 };
+                this.elements = [
+                    { type: 'rect', x: 50, y: 50, width: 120, height: 80, color: '#ffd700', text: 'Canvas' },
+                    { type: 'circle', x: 250, y: 90, radius: 40, color: '#ff6b9d', text: 'Node' },
+                    { type: 'rect', x: 150, y: 180, width: 140, height: 60, color: '#4ecdc4', text: 'Element' }
+                ];
+
+                this.init();
+            }
+
+            init() {
+                this.resize();
+                window.addEventListener('resize', () => this.resize());
+
+                this.wrapper.addEventListener('mousedown', (e) => this.startPan(e));
+                this.wrapper.addEventListener('mousemove', (e) => this.pan(e));
+                this.wrapper.addEventListener('mouseup', () => this.endPan());
+                this.wrapper.addEventListener('wheel', (e) => this.zoom(e));
+
+                this.render();
+            }
+
+            resize() {
+                this.canvas.width = this.wrapper.clientWidth;
+                this.canvas.height = this.wrapper.clientHeight;
+                this.render();
+            }
+
+            startPan(e) {
+                this.isPanning = true;
+                this.startPoint = { x: e.clientX, y: e.clientY };
+            }
+
+            pan(e) {
+                if (!this.isPanning) return;
+                this.camera.x += (e.clientX - this.startPoint.x);
+                this.camera.y += (e.clientY - this.startPoint.y);
+                this.startPoint = { x: e.clientX, y: e.clientY };
+                this.render();
+            }
+
+            endPan() {
+                this.isPanning = false;
+            }
+
+            zoom(e) {
+                e.preventDefault();
+                const delta = e.deltaY > 0 ? 0.9 : 1.1;
+                this.camera.zoom *= delta;
+                this.render();
+            }
+
+            render() {
+                this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+
+                // Draw grid
+                this.ctx.save();
+                this.ctx.strokeStyle = '#e0e0e0';
+                this.ctx.lineWidth = 1;
+                const gridSize = 20 * this.camera.zoom;
+                const offsetX = this.camera.x % gridSize;
+                const offsetY = this.camera.y % gridSize;
+
+                for (let x = offsetX; x < this.canvas.width; x += gridSize) {
+                    this.ctx.beginPath();
+                    this.ctx.moveTo(x, 0);
+                    this.ctx.lineTo(x, this.canvas.height);
+                    this.ctx.stroke();
+                }
+                for (let y = offsetY; y < this.canvas.height; y += gridSize) {
+                    this.ctx.beginPath();
+                    this.ctx.moveTo(0, y);
+                    this.ctx.lineTo(this.canvas.width, y);
+                    this.ctx.stroke();
+                }
+                this.ctx.restore();
+
+                // Draw elements
+                this.ctx.save();
+                this.ctx.translate(this.camera.x, this.camera.y);
+                this.ctx.scale(this.camera.zoom, this.camera.zoom);
+
+                this.elements.forEach(el => {
+                    if (el.type === 'rect') {
+                        this.ctx.fillStyle = el.color;
+                        this.ctx.strokeStyle = '#333';
+                        this.ctx.lineWidth = 1;
+                        this.ctx.fillRect(el.x, el.y, el.width, el.height);
+                        this.ctx.strokeRect(el.x, el.y, el.width, el.height);
+
+                        this.ctx.fillStyle = '#000';
+                        this.ctx.font = '14px sans-serif';
+                        this.ctx.textAlign = 'center';
+                        this.ctx.fillText(el.text, el.x + el.width / 2, el.y + el.height / 2 + 5);
+                    } else if (el.type === 'circle') {
+                        this.ctx.beginPath();
+                        this.ctx.arc(el.x, el.y, el.radius, 0, Math.PI * 2);
+                        this.ctx.fillStyle = el.color;
+                        this.ctx.fill();
+                        this.ctx.strokeStyle = '#333';
+                        this.ctx.lineWidth = 1;
+                        this.ctx.stroke();
+
+                        this.ctx.fillStyle = '#fff';
+                        this.ctx.font = '14px sans-serif';
+                        this.ctx.textAlign = 'center';
+                        this.ctx.fillText(el.text, el.x, el.y + 5);
+                    }
+                });
+
+                this.ctx.restore();
+            }
+        }
+
+        // Prototype 3: DOM/CSS Transform
+        class DOMCanvas {
+            constructor(canvasId, wrapperId) {
+                this.canvas = document.getElementById(canvasId);
+                this.wrapper = document.getElementById(wrapperId);
+                this.transform = { x: 0, y: 0, scale: 1 };
+                this.isPanning = false;
+                this.startPoint = { x: 0, y: 0 };
+                this.draggedElement = null;
+                this.dragOffset = { x: 0, y: 0 };
+
+                this.init();
+            }
+
+            init() {
+                this.updateTransform();
+
+                this.wrapper.addEventListener('mousedown', (e) => {
+                    if (e.target.classList.contains('dom-element')) {
+                        this.startDragElement(e);
+                    } else {
+                        this.startPan(e);
+                    }
+                });
+
+                this.wrapper.addEventListener('mousemove', (e) => {
+                    if (this.draggedElement) {
+                        this.dragElement(e);
+                    } else if (this.isPanning) {
+                        this.pan(e);
+                    }
+                });
+
+                this.wrapper.addEventListener('mouseup', () => {
+                    this.endPan();
+                    this.endDragElement();
+                });
+
+                this.wrapper.addEventListener('wheel', (e) => this.zoom(e));
+            }
+
+            startDragElement(e) {
+                this.draggedElement = e.target;
+                const rect = this.draggedElement.getBoundingClientRect();
+                const wrapperRect = this.wrapper.getBoundingClientRect();
+
+                this.dragOffset = {
+                    x: e.clientX - rect.left,
+                    y: e.clientY - rect.top
+                };
+                e.stopPropagation();
+            }
+
+            dragElement(e) {
+                if (!this.draggedElement) return;
+
+                const wrapperRect = this.wrapper.getBoundingClientRect();
+                const x = (e.clientX - wrapperRect.left - this.transform.x - this.dragOffset.x) / this.transform.scale;
+                const y = (e.clientY - wrapperRect.top - this.transform.y - this.dragOffset.y) / this.transform.scale;
+
+                this.draggedElement.style.left = x + 'px';
+                this.draggedElement.style.top = y + 'px';
+            }
+
+            endDragElement() {
+                this.draggedElement = null;
+            }
+
+            startPan(e) {
+                this.isPanning = true;
+                this.startPoint = { x: e.clientX, y: e.clientY };
+            }
+
+            pan(e) {
+                if (!this.isPanning) return;
+                this.transform.x += e.clientX - this.startPoint.x;
+                this.transform.y += e.clientY - this.startPoint.y;
+                this.startPoint = { x: e.clientX, y: e.clientY };
+                this.updateTransform();
+            }
+
+            endPan() {
+                this.isPanning = false;
+            }
+
+            zoom(e) {
+                e.preventDefault();
+                const delta = e.deltaY > 0 ? 0.9 : 1.1;
+                this.transform.scale *= delta;
+                this.updateTransform();
+            }
+
+            updateTransform() {
+                this.canvas.style.transform =
+                    `translate(${this.transform.x}px, ${this.transform.y}px) scale(${this.transform.scale})`;
+            }
+        }
+
+        // Initialize all prototypes
+        new SVGCanvas('svg-canvas', 'svg-wrapper');
+        new CanvasAPI('pixel-canvas', 'canvas-wrapper');
+        new DOMCanvas('dom-canvas', 'dom-wrapper');
+    </script>
+</body>
+</html>
