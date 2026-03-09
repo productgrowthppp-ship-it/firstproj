@@ -125,266 +125,100 @@ If you acquire 400 new paid subs/month at $15/mo:
 
 ---
 
-## Part 3: Full Post Database — Last 12 Months
+## Part 3: Full Post Database — Last 12 Months (Complete from XML Sitemaps)
 
-### Lenny's Newsletter Posts (Mar 2025 - Mar 2026)
+### Lenny's Newsletter — Complete Post Database (Mar 2025 - Mar 2026)
 
-**Cadence:** 2 posts/week (Tues + Fri) + weekly Community Wisdom (Sat, paid only) + "How I AI" vertical (Claire Vo, launched 2025)
-**Production process:** Lenny spends 10-20 hrs per self-authored post. Guest posts go through 5-6 draft rounds.
-**Staff:** Lenny is sole full-time employee; contractors for podcast production.
+**Source:** Complete XML sitemap (lennysnewsletter.com)
+**Legend:** 📝 Essay/Guide | 🎙️ Podcast | 🟡 Community Wisdom | 🟣 How I AI | 📚 Reads | 🔵 Product Pass
 
-#### Content Verticals
-1. **Main Newsletter** — deeply researched essays (Lenny-authored, ~30% of volume)
-2. **Guest Expert Posts** — practitioners sharing playbooks, 5-6 draft rounds (~30%)
-3. **Podcast Companion Posts** — written summaries of interviews (~20%)
-4. **Community Wisdom** — curated Slack highlights (weekly, paid only, ~10%)
-5. **How I AI** — AI tools vertical hosted by Claire Vo (~10%, growing fast)
-6. **Product Pass Announcements** — periodic free posts announcing new bundle products
+#### Content Mix Summary
 
-#### March 2025
-1. "1,000,000" — Milestone post + first-ever mailbag edition (FREE)
-2. State of the product job market in 2025 (PAID)
-3. Community Wisdom edition (PAID)
+| Type | Count | % of Total |
+|------|-------|-----------|
+| 📝 Essay/Guide | 184 | 57% |
+| 🎙️ Podcast | 61 | 19% |
+| 🟡 Community Wisdom | 53 | 16% |
+| 🟣 How I AI | 21 | 6% |
+| 📚 Reads | 5 | 2% |
+| 🔵 Product Pass | 1 | 0% |
+| **TOTAL** | **325** | **100%** |
 
-#### April 2025
-4. "Beyond vibe checks: A PM's complete guide to evals" — Aman Khan (PAID)
-5. "A new perk for annual subscribers: Product Pass" (FREE — conversion-focused)
-6. "How to win in the AI era: Ship weekly, embrace tech debt, cut scope" — Gaurav Misra/Captions (PAID)
-7. "The operator's guide to product strategy" — Chandra Janakiraman (FREE)
-8. "The definitive guide to mastering product sense interviews" (PAID)
-9. "Introducing How I AI" — launch of new podcast vertical with Claire Vo (FREE)
-10. "The state of tech tools in 2025" — original survey data (FREE)
+#### Monthly Cadence
 
-#### May 2025
-11. "State of the product job market in 2025" — original survey data (FREE)
-12. "A guide to AI prototyping for product managers" — Colin Matthews (PAID)
-13. "Product manager is an unfair role. So work unfairly." (PAID)
-14. "Why you're so angry at work (and what to do about it)" (PAID)
-15. Community Wisdom editions (PAID, weekly)
+| Month | Total | Essays | Podcast | CW | How I AI | Reads | PP |
+|-------|-------|--------|---------|-----|----------|-------|-----|
+| March 2025 | 15 | 5 | 5 | 5 | 0 | 0 | 0 |
+| April 2025 | 13 | 6 | 2 | 4 | 1 | 0 | 0 |
+| May 2025 | 38 | 24 | 5 | 5 | 0 | 4 | 0 |
+| June 2025 | 26 | 16 | 6 | 4 | 0 | 0 | 0 |
+| July 2025 | 15 | 4 | 6 | 4 | 0 | 1 | 0 |
+| August 2025 | 37 | 23 | 9 | 5 | 0 | 0 | 0 |
+| September 2025 | 26 | 15 | 7 | 4 | 0 | 0 | 0 |
+| October 2025 | 17 | 12 | 2 | 3 | 0 | 0 | 0 |
+| November 2025 | 29 | 16 | 8 | 5 | 0 | 0 | 0 |
+| December 2025 | 21 | 10 | 6 | 5 | 0 | 0 | 0 |
+| January 2026 | 32 | 24 | 3 | 4 | 0 | 0 | 1 |
+| February 2026 | 47 | 23 | 2 | 4 | 18 | 0 | 0 |
+| March 2026 | 9 | 6 | 0 | 1 | 2 | 0 | 0 |
 
-#### June 2025
-16. "An AI glossary" — common AI terms explained simply (FREE)
-17. "AI prompt engineering in 2025: What works and what doesn't" — Sander Schulhoff (PAID)
-18. "How Intercom rose from the ashes by betting everything on AI" — Eoghan McCabe (PAID)
-19. "Inside the expert network training every frontier AI model" (PAID)
-20. "Why your AI product needs a different development lifecycle" (PAID)
+**Key insight:** Lenny publishes ~25 pieces/month on average. His content engine runs on **6 distinct verticals** operating in parallel: essays, podcast companions, weekly Community Wisdom, How I AI episodes, curated Reads, and Product Pass drops. This diversification means he never runs dry on content — even when he takes a week off essays, Community Wisdom and How I AI keep publishing.
 
-#### July 2025
-21. "What people are vibe coding (and actually using)" — 50+ real examples (FREE — massive viral hit)
-22. "Essential reading for product builders — part 1" (FREE)
-23. "Build your personal AI copilot" — Tal Raviv (PAID)
-24. "Why no productivity hack will solve your overwhelm" (PAID)
-25. "Announcing 15+ free premium tools: Product Pass expansion" — Devin, Lovable, Replit, Bolt, n8n, Warp, Superhuman, Linear, etc. ($15K+ value) (FREE)
-
-#### August 2025
-26. "25 proven tactics to accelerate AI adoption at your company" — Peter Yang (FREE)
-27. "How tech's most resilient workers handle burnout" — ARMOR framework (PAID)
-28. "Taking the week off + a newsletter cadence update" — shifts to 2-4 paid posts/month, no free posts (META)
-29. "Introducing Core 4: measuring product velocity" (PAID)
-30. "Essential reading for product builders — part 2" (FREE)
-31. "How I built an Apple Watch workout app using Cursor and Xcode (with zero mobile-app experience)" — Terry Lin (PAID)
-
-#### September 2025
-32. "A designer's guide to Cursor" — Elizabeth Lin (PAID)
-33. "How to build a team that can take a punch" — Hilary Gridley/Whoop (PAID)
-34. "Introducing the GAIN framework for feedback" — evidence-based approach (PAID)
-35. "10 growth tactics that never work" — Elena Verna (PAID)
-36. "How to break out of autopilot and create the life you want" — Graham Weaver/Stanford (PAID)
-37. "How to build your product team from scratch" — Rohini Pandhi/Mercury (PAID)
-38. Community Wisdom 250th issue — Summer Class 2025 top contributors (PAID)
-39. "Why experts writing AI evals is creating the fastest-growing companies" — Brendan Foody/Mercor (PAID)
-
-#### October 2025
-40. "Everyone should be using Claude Code more" — 50 ways non-technical people use it (FREE — biggest post of 2025)
-41. "How to measure AI developer productivity in 2025" — Nicole Forsgren, 7-step framework (PAID)
-42. "A builder's guide to living a long and healthy life" (FREE)
-43. "$46B of hard truths from Ben Horowitz" — a16z co-founder (PAID)
-44. "Building eval systems that improve your AI product" (PAID)
-45. "The ultimate guide to AEO: How to get ChatGPT to recommend your product" — Ethan Smith/Graphite (PAID)
-46. "How Devin replaces your junior engineers with infinite AI interns" — Scott Wu/Cognition CEO (PAID)
-47. "How AI is reshaping the product role" — Oji and Ezinne Udezue (PAID)
-
-#### November 2025
-48. "Dumbest idea I've heard to $100M ARR: Inside the rise of Gamma" — Grant Lee (FREE)
-49. "Ecosystem is the next big growth channel" (PAID)
-50. "The complete beginner's guide to coding with AI" — from PRD to first code (FREE)
-51. "Product Pass update: Stripe Atlas added to the bundle" (FREE)
-
-#### December 2025
-52. "AI tools are overdelivering: large-scale productivity survey" — Noam Segal/Figma (FREE)
-53. "How to build your PM second brain with ChatGPT" — Amir Klein (PAID)
-54. "How to spot a top 1% startup early" — Terrence Rohan (PAID)
-55. "Elena Verna: The new AI growth playbook for 2026" — Lovable $200M ARR in 1 year (FREE)
-56. "The operator's guide to product strategy" (PAID)
-57. "A year free of PostHog ($16,500 value)" — Product Pass (FREE)
-58. "We replaced our sales team with 20 AI agents" — Jason Lemkin/SaaStr (PAID)
-59. "Why LinkedIn is replacing PMs with full-stack builders" — Tomer Cohen/LinkedIn CPO (PAID)
-60. "The ultimate guide to negotiating your comp" (PAID)
-61. Community Wisdom: What PMs need to master in the age of AI (PAID)
-
-#### January 2026
-62. "Best of Lenny's Newsletter 2025" — year-end recap (FREE)
-63. "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer" (FREE)
-64. "How I AI: Claude Code for Product Managers" — Teresa Torres (PAID)
-65. "Advanced Claude Code techniques" — John Lindquist/egghead.io (PAID)
-66. "How to show up in any room with a low heart rate" — Sam Lessin (PAID)
-67. "ChatGPT apps are about to be the next big distribution channel" (FREE)
-68. "Marc Andreessen: The real AI boom hasn't even started yet" (FREE)
-
-#### February 2026
-69. "A child psychologist's guide to working with difficult adults" — Dr. Becky Kennedy (FREE)
-70. "How this PM uses MCPs to automate meeting prep, CRM, feedback" — Reid Robinson/Zapier (PAID)
-71. "Guillermo Rauch: Vercel CEO on v0 hitting 3,200 PRs merged/day" (PAID)
-72. "The rise of the professional vibe coder" — Lazar Jovanovic/Lovable (PAID)
-73. "Claude Opus 4.6 vs GPT-5.3 Codex: 93,000 lines of code in 5 days" — How I AI (PAID)
-74. "How this visually impaired engineer uses Claude Code" — Joe McCormick (FREE)
-75. "Head of Claude Code: What happens after coding is solved" — Boris Cherny/Anthropic (FREE)
-76. "Sequoia CEO coach: Why it's never been easier to start, harder to scale" — Brian Halligan/HubSpot (FREE)
-77. Community Wisdom: Building your tech stack from scratch, LLM credit costs (PAID)
-78. "How I AI: How Notion's design team uses Claude Code to prototype" — Brian Lovin (PAID)
-79. "How I AI: How Coinbase scaled AI to 1,000+ engineers" (PAID)
-80. "How I AI: 5 OpenClaw agents running home, finances, and code" — Jesse (PAID)
-
-#### March 2026
-81. Community Wisdom 176: Books, vibe coding with Figma, Claude Code vs others (PAID)
-82. "How a 91-year-old vibe coded a complex event management system" — John Blackman (FREE)
-83. "The design process is dead. Here's what's replacing it." — Jenny Wen/Anthropic (FREE)
-84. "Engineers are becoming sorcerers" — Sherwin Wu/OpenAI (FREE)
-85. "Boris Cherny on building Claude Code" — Anthropic (PAID)
-86. "How I AI: Vibe analysis with Faire + vibe coding a kid-friendly AI fortune teller" (PAID)
-
-**Total identified:** ~86 posts in 12 months. With weekly Community Wisdom (~52) + How I AI episodes (~30), actual total is **~120-140 pieces** of content.
-**Free posts:** ~30-35 out of identified posts (35-40%)
-**Key pattern:** Free posts are either (a) viral content pieces, (b) Product Pass announcements, or (c) interview highlights with big names. Paid posts are frameworks, guides, and community content.
-
-#### "How I AI" Sub-Brand Complete Episode List (launched Apr 2025)
-- Introducing How I AI — Claire Vo (FREE)
-- A 0 to 1 guide for beginners — Claire Vo (FREE)
-- How to get your whole team excited about AI — Brian Greenbaum/Pendo (PAID)
-- Claude Code for Product Managers — Teresa Torres (PAID)
-- How Notion's design team uses Claude Code to prototype — Brian Lovin (PAID)
-- Automate the tasks you hate with MCPs — Reid Robinson/Zapier (PAID)
-- How v0 is bringing git workflows to vibe-coding — Guillermo Rauch/Vercel (PAID)
-- How this visually impaired engineer uses Claude Code — Joe McCormick (FREE)
-- How Coinbase scaled AI to 1,000+ engineers (PAID)
-- 5 OpenClaw agents running home, finances, and code — Jesse (PAID)
-- Claude Opus 4.6 vs GPT-5.3 Codex: 93K lines in 5 days (PAID)
-- Vibe analysis with Faire + kid-friendly AI fortune teller (PAID)
-- CJ Hess: Flowy tool transforms ASCII diagrams to visual mockups (PAID)
-**Total:** 13+ episodes, growing weekly. ~3 free, ~10 paid.
+**Production scale:** Lenny's 325 posts in 12 months = ~6.3 posts/week. Even accounting for the fact that Community Wisdom and How I AI are lighter-weight formats, this is a massive content operation that creates continuous value delivery for paid subscribers.
 
 ---
 
-### Your Posts (Product Growth, Mar 2025 - Mar 2026)
+### Product Growth — Complete Post Database (Mar 2025 - Mar 2026)
 
-**Cadence:** ~2 posts/week, mix of deep dives, tutorials, podcast write-ups, and AI Update posts
-**Key collaborator:** Miqdad Jaffer (OpenAI) — co-authors many AI PM pieces
-**Podcast:** "The Growth Podcast" (renamed Dec 2025), 65K+ listeners, 25K YT subs
+**Source:** Complete XML sitemap (news.aakashg.com)
+**Legend:** 📝 Essay/Guide | 🎙️ Podcast | 🏢 Company Deep Dive | 📢 Announcement
 
-#### March 2025
-1. "11 Lessons From 50 Episodes + The Podcast's Future" (FREE)
-2. "This PM Went From $50k to $750k/Year — Here's How" — Satish podcast (PAID)
-3. "The 2025 Product Strategy Playbook" — with Miqdad Jaffer (PAID)
-4. "How ACTUAL Job Seekers Have Succeeded in this Market" (FREE)
+#### Content Mix Summary
 
-#### April 2025
-5. "Your Guide to AI Product Strategy" — with Miqdad Jaffer (PAID)
-6. "Complete Course: AI Product Management" — with Pawel Huryn (PAID)
-7. "Cracking the PM Interview" — Gayle McDowell podcast (PAID)
-8. "Inside the $300B AI Giant: How to Land Your Dream Job at OpenAI in 2025" (PAID)
-9. "Amazon VP: The Magic Loop Framework to Get Promoted" (PAID)
+| Type | Count | % of Total |
+|------|-------|-----------|
+| 📝 Essay/Guide | 113 | 62% |
+| 🎙️ Podcast | 62 | 34% |
+| 🏢 Company Deep Dive | 5 | 3% |
+| 📢 Announcement | 2 | 1% |
+| **TOTAL** | **182** | **100%** |
 
-#### May 2025
-10. "How to Land a $700K+ AI PM Job: Complete Guide 2025" — Alex Rechevskiy podcast (PAID)
-11. "How to Use Claude for Work" (PAID)
-12. "The AI Job Search Tool Market: Everything You Need to Know" (PAID)
-13. "PM is Dead. So Now What?" — Claire Vo episode (PAID)
+#### Monthly Cadence
 
-#### June 2025
-14. "Tutorial of Top 5 AI Prototyping Tools: Bolt, Lovable, v0, Replit, Cursor" (PAID)
-15. "500,000 Professionals Have Used His Book To Crack Interviews" (podcast)
-16. "Ultimate Guide to AI Prototyping Tools" (PAID)
-17. "Context Engineering Guide: Step-by-Step RAG, Fine-tuning, Prompt Engineering" — with Miqdad Jaffer (PAID)
-18. "What I Learned From Filming 80 Podcast Episodes" (FREE) — podcast now profitable, 12K YT subs
-19. "Master the Product Metrics Interview" (PAID)
-20. "How to Break Into Product Management: The Playbook" (PAID)
-21. "Bolt Tutorial from the CEO: We Live Build a Remote Job board" (PAID)
-22. "We Built an AI Product Manager in 58 mins (Claude, ChatGPT, Loom + Notion AI)" (PAID)
+| Month | Total | Essays | Podcast | Company | Announce |
+|-------|-------|--------|---------|---------|----------|
+| March 2025 | 13 | 10 | 3 | 0 | 0 |
+| April 2025 | 17 | 13 | 3 | 1 | 0 |
+| May 2025 | 5 | 4 | 0 | 1 | 0 |
+| June 2025 | 9 | 9 | 0 | 0 | 0 |
+| July 2025 | 8 | 7 | 0 | 1 | 0 |
+| August 2025 | 8 | 8 | 0 | 0 | 0 |
+| September 2025 | 6 | 6 | 0 | 0 | 0 |
+| October 2025 | 10 | 10 | 0 | 0 | 0 |
+| November 2025 | 12 | 12 | 0 | 0 | 0 |
+| December 2025 | 7 | 6 | 0 | 0 | 1 |
+| January 2026 | 11 | 7 | 1 | 2 | 1 |
+| February 2026 | 32 | 12 | 20 | 0 | 0 |
+| March 2026 | 44 | 9 | 35 | 0 | 0 |
 
-#### July 2025
-23. "How Cursor Grows" — 0 to $100M ARR in 24 months (PAID)
-24. "Prompt Engineering in 2025: The Latest Best Practices" — with Miqdad Jaffer (PAID)
-25. "AI Agents for PMs: Practical Guide to Build & Use in 2025" — demos in Zapier, n8n, Make.com (PAID) ⭐ 185 likes
-26. "AI Product Discovery: Complete Course" (PAID)
-27. "This $20M AI Founder Is Challenging Elon and Sam Altman" — Roy Lee/Cluely (podcast)
-28. "How Zoom Took Over The World" (PAID)
-29. "How to Choose the Right Metrics to Evaluate Experiments" (PAID)
+**Key insight:** Your podcast episodes (62 total) represent a HUGE content asset that you're publishing as standalone Substack posts. But they cluster heavily in Feb-Mar 2026 (55 of 62), suggesting you batch-published back-catalog podcast companions. Your core newsletter cadence (essays) dropped from ~10-13/month in early 2025 to 6-9/month by late 2025.
 
-#### August 2025
-30. "AI PRDs: Everything You Need to Know" (PAID) ⭐ 152 likes
-31. "Complete Courses in PM, AI PM, and Getting a PM Job" — 3 years of writing (FREE) ⭐ 104 likes
-32. "The Lean Product Playbook 10 Years Later" (podcast)
-33. "AI PM Crash Course: Prototyping → Observability → Evals" (PAID)
-34. "Build in Public Month 3: $93K, Crossed $1M ARR" (FREE)
+**The "How Cursor/Linear/Dovetail Grows" series** (5 posts) is your closest equivalent to Lenny's podcast companion format — company deep dives that create repeatable, brandable content. You should expand this.
 
-#### September 2025
-35. "How to Create an AI Product Roadmap (That Actually Works)" — with Miqdad Jaffer (PAID)
-36. "The Complete Guide to Acing PM Interviews (2025 Edition)" (PAID)
-37. "AI PM's Guide to LLM Judges" — Hamel Husain, Shreya Shankar (PAID)
-38. "Behind v0: Tutorial and Story from the CPO" (PAID)
-39. "He Runs a $2M/Yr One-Person Business" (podcast)
-40. "How to Build a $80M+ Startup Solo with AI Tools" — Colin Matthews (podcast)
+---
 
-#### October 2025
-41. "AI PM Learning Roadmap" — comprehensive learning path (PAID)
-42. "The AI PM Job Search System: How to Land a $300K+ Role" (PAID)
-43. "The AI PM Interview: Your Complete Guide" (PAID)
-44. "OpenAI's Framework for AI Product Sense" — 5,500 words, with Miqdad Jaffer (PAID)
-45. "Steal My PM Prompt Library" — 82 battle-tested prompts (PAID)
-46. "AI Evals: Everything You Need to Know to Start" (PAID)
-47. "We Built an AI Employee in 62 mins" (Cursor, ChatGPT, Gibson, Crew AI) (PAID)
-48. "Career-Launching Companies: The Companies You Should Work For" (PAID)
+### Head-to-Head Content Mix Comparison
 
-#### November 2025
-49. "Practical AI Agents for PMs: Tool Guide" (PAID)
-50. "How Linear Grows" — $1.25B valuation, 100 employees, Linear for Agents (PAID)
-51. "How to Land an AI PM Job: Complete Roadmap" — Hamza Farooq podcast (PAID)
-52. "System Design Interview for (Technical) PMs: How to Ace It" (PAID)
-53. "Reforge Growth Crash Course in 82 Minutes" — Brian Balfour (podcast)
-54. "The Marty Cagan Episode: Product Management Crash Course in 61 Minutes" (podcast)
+| Metric | Lenny | Product Growth | Gap |
+|--------|-------|---------------|-----|
+| **Total posts (12 months)** | 325 | 182 | Lenny publishes 1.8x more |
+| **Essays/Guides** | 184 (57%) | 113 (62%) | Similar ratio, but Lenny has 1.6x more volume |
+| **Podcast companions** | 61 (19%) | 62 (34%) | You actually match on podcast volume! |
+| **Recurring paid-only formats** | 53 CW + 21 HIAI = 74 (23%) | 0 (0%) | **Lenny's biggest retention advantage** |
+| **Content verticals** | 6 | 2-3 | Lenny has 2-3x more content types |
+| **Avg posts/month** | 25 | 14 | Lenny ships nearly 2x per month |
 
-#### December 2025
-55. "Announcing Aakash's Bundle" — $28K+ in tools: Arize, Linear, Mobbin, Dovetail, Descript, Reforge Build (FREE)
-56. "Premium Resources" — updated resource hub (PAID)
-57. "How to Become an AI Product Manager with No Experience" — Dr. Nancy Li (PAID)
-58. "Context Engineering Guide: RAG, Fine-tuning, Prompt Engineering" — with Miqdad Jaffer (PAID)
-59. Podcast renamed to "The Growth Podcast" (branding change)
-
-#### January 2026
-60. "Unicorn Candidate-Market Fit" — most frequent job search advice (FREE)
-61. "Product Growth's 2025 Year in Review" — 90 deep dives, 70 podcasts, 6 infographics (FREE)
-62. "Sales Tech Market Map 2025: The $30B Industry Breakdown" — 6 months of research, ~300 companies (PAID)
-63. "AI Product Success Metrics Interviews" — "How would you measure success of GPT-6?" (PAID)
-64. "The Product Launch Playbook: What PMs and Builders Miss About Go-To-Market" (PAID)
-
-#### February 2026
-65. "Guide to OpenClaw (formerly Clawdbot/Moltbot)" (PAID)
-66. "Zapier Now Rates PMs on Their AI Usage" — Zapier + Shopify AI fluency rubrics (FREE)
-67. "Claude Code with Opus-4.6" — implications for PMs (PAID)
-68. "The Ultimate Guide to Replit" (PAID)
-69. "How to Do AI-Powered Discovery" — Caitlin Sullivan, building agents for UXR (PAID)
-70. "How to Build Product-Led Growth in 2026 (Complete 7-Layer Playbook)" — Canva, Figma, Attio case studies (PAID)
-71. "Amplitude Principal AI PM: Vibe PMing with Claude Code, Cursor" (PAID)
-72. "Complete Guide to NotebookLM" (PAID)
-73. "You Should Be Using Claude Cowork: Complete Guide" (PAID)
-
-#### March 2026
-74. "How to Build a PM GitHub That Gets You Hired (2026 Guide)" (PAID)
-75. "How to Price AI Products: The Complete Guide for PMs" — 50 AI startups mapped (PAID)
-
-**Total identified:** ~75 posts in 12 months. With additional AI Update posts (~2/week) and podcast write-ups, actual total is likely **~100-120 pieces**.
-**Free posts:** ~10-12 out of 75 identified (13-16%)
-**Key pattern:** Almost all free posts are meta/milestone posts (year in review, podcast reflections, Build in Public). Very few free "content" posts that could go viral — this is a major difference from Lenny.
+**The critical finding:** Lenny has **74 recurring-format posts** (Community Wisdom + How I AI) that are paid-only and create weekly appointment content. You have **zero** equivalent recurring formats. This is likely the single biggest driver of the retention gap. A subscriber who gets a weekly Community Wisdom post on Saturday feels like the subscription is "alive" — it's a ritual, not just occasional essays. You need your own version of this.
 
 ---
 
@@ -646,75 +480,36 @@ And your new subs jumped to 502 (your 3rd best month).
 
 ---
 
-## Appendix: How to Build the Complete Article Databases
+## Appendix: Data Sources and Methodology
 
-### What I tried (and what blocked me)
+### Database Completeness
 
-| Method | Lenny | Product Growth | Result |
-|--------|-------|---------------|--------|
-| Substack sitemap.xml | 403 | 403 | Blocked |
-| Substack /feed (RSS) | 403 | 403 | Blocked |
-| Substack API /api/v1/archive | 403 | 403 | Blocked |
-| Archive page /archive | 403 | 403 | Blocked |
-| Substack profile page | 403 | 403 | Blocked |
-| Direct curl with browser UA | Proxy blocked (host_not_allowed) | Same | Blocked by environment proxy |
-| Web Archive (Wayback Machine) | Tool can't access | Same | Blocked |
-| Third-party aggregators (Readsom, Muck Rack) | 403 | 403 | Blocked |
-| Google `site:` searches | ~10 results per query | Same | Partial — used 15+ searches |
-| Google cached versions of sitemaps | Titles in search snippets only | Same | Partial |
+The post databases in Part 3 were built from **complete XML sitemaps** provided directly for both newsletters. The sitemaps contain every published URL with `lastmod` dates.
 
-### How to get the COMPLETE databases (actions you can take)
+- **Lenny's Newsletter:** 1,085 total URLs in sitemap → 359 posts in Mar 2025 - Mar 2026 window → 325 unique after deduplication
+- **Product Growth:** 533 total URLs in sitemap → 182 posts in Mar 2025 - Mar 2026 window → 182 unique
 
-**Option 1: Substack Sitemap Pages (easiest)**
-Visit these URLs in your browser (they load as HTML pages with all post titles):
-- `https://www.lennysnewsletter.com/sitemap/2025`
-- `https://www.lennysnewsletter.com/sitemap/2026`
-- `https://www.news.aakashg.com/sitemap/2025`
-- `https://www.news.aakashg.com/sitemap/2026`
+### Content Type Classification
 
-Each page lists every post title, URL, and date for that year. Copy-paste into a spreadsheet.
+Posts were categorized by URL slug patterns:
+- **Community Wisdom:** slug contains `community-wisdom`
+- **How I AI:** slug contains `this-week-on-how-i-ai`, `today-on-how-i-ai`, or `introducing-how-i-ai`
+- **Product Pass:** slug contains `product-pass`
+- **Lenny's Reads:** slug starts with `summary-` or contains `essential-reading`
+- **Podcast:** slug contains known guest names (60+ names matched) or `inside-[company]` pattern
+- **Company Deep Dive (PG):** slug matches `how-[company]-grows` pattern
+- **Podcast (PG):** slug contains `podcast` or matches known podcast episode patterns
+- **Essay/Guide:** everything else
 
-**Option 2: Substack Archive Pages**
-- `https://www.lennysnewsletter.com/archive?sort=new`
-- `https://www.news.aakashg.com/archive?sort=new`
+### Deduplication
 
-These show all posts in reverse chronological order. You can scroll through and export.
+Substack republishes posts with new URL slugs (appending 3-4 character hex suffixes like `-670`, `-96f`). These were deduplicated by matching base slugs, reducing Lenny's count from 359 → 325.
 
-**Option 3: Substack API (from browser console)**
-Open dev tools on any Substack page and run:
-```javascript
-// Fetch all posts from the archive API
-async function getAllPosts(baseUrl) {
-  let offset = 0, allPosts = [];
-  while (true) {
-    const res = await fetch(`${baseUrl}/api/v1/archive?sort=new&offset=${offset}&limit=50`);
-    const posts = await res.json();
-    if (!posts.length) break;
-    allPosts.push(...posts);
-    offset += 50;
-  }
-  return allPosts;
-}
+### Limitations
 
-// Run for Lenny's:
-getAllPosts('https://www.lennysnewsletter.com').then(posts => {
-  console.table(posts.map(p => ({title: p.title, date: p.post_date, slug: p.slug, audience: p.audience})));
-});
-```
-
-**Option 4: RSS Feed (from non-proxy environment)**
-```bash
-curl https://www.lennysnewsletter.com/feed > lenny-feed.xml
-curl https://www.news.aakashg.com/feed > pg-feed.xml
-```
-
-### What we captured
-
-With 15+ targeted Google searches, I identified:
-- **Lenny:** ~86 posts + 13 How I AI episodes + ~52 weekly Community Wisdom = ~120-140 total pieces
-- **Product Growth:** ~75 posts + AI Update posts = ~100-120 total pieces
-
-This is approximately **70-80% complete** for both newsletters. The missing posts are likely shorter AI Updates, podcast companion posts, and some Community Wisdom editions that weren't indexed by Google.
+- Content type classification is based on URL slugs, not actual post content. Some posts may be miscategorized (e.g., a podcast companion post without the guest's name in the slug would be classified as an essay).
+- Free vs. paid status is not available from sitemaps — that requires the Substack API `audience` field.
+- The Feb-Mar 2026 spike in Product Growth podcast posts (55 of 62 total) likely represents batch-publishing of podcast companion posts for back-catalog episodes, not a sudden increase in podcast recording.
 
 ---
 
