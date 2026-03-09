@@ -96,96 +96,117 @@ If you acquire 400 new paid subs/month at $15/mo:
 
 ### Lenny's Newsletter Posts (Mar 2025 - Mar 2026)
 
-**Cadence:** ~2 posts/week (1 long-form essay + 1 podcast write-up or Community Wisdom), plus occasional Product Pass announcements
+**Cadence:** 2 posts/week (Tues + Fri) + weekly Community Wisdom (Sat, paid only) + "How I AI" vertical (Claire Vo, launched 2025)
+**Production process:** Lenny spends 10-20 hrs per self-authored post. Guest posts go through 5-6 draft rounds.
+**Staff:** Lenny is sole full-time employee; contractors for podcast production.
+
+#### Content Verticals
+1. **Main Newsletter** — deeply researched essays (Lenny-authored, ~30% of volume)
+2. **Guest Expert Posts** — practitioners sharing playbooks, 5-6 draft rounds (~30%)
+3. **Podcast Companion Posts** — written summaries of interviews (~20%)
+4. **Community Wisdom** — curated Slack highlights (weekly, paid only, ~10%)
+5. **How I AI** — AI tools vertical hosted by Claire Vo (~10%, growing fast)
+6. **Product Pass Announcements** — periodic free posts announcing new bundle products
 
 #### March 2025
-1. "1,000,000" — Milestone post + reader mailbag (FREE)
+1. "1,000,000" — Milestone post + first-ever mailbag edition (FREE)
 2. State of the product job market in 2025 (PAID)
 3. Community Wisdom edition (PAID)
-4. Podcast: Various guest episodes
 
 #### April 2025
+4. "Beyond vibe checks: A PM's complete guide to evals" — Aman Khan (PAID)
 5. "A new perk for annual subscribers: Product Pass" (FREE — conversion-focused)
-6. The Magic Loop — framework for rapid career growth (PAID)
-7. 25 proven tactics to accelerate AI adoption at your company (PAID)
-8. Podcast episodes with top operators
+6. "How to win in the AI era: Ship weekly, embrace tech debt, cut scope" — Gaurav Misra/Captions (PAID)
+7. "The operator's guide to product strategy" — Chandra Janakiraman (FREE)
+8. "The definitive guide to mastering product sense interviews" (PAID)
 
 #### May 2025
-9. State of the product job market in 2025 — deeper data (PAID)
+9. "State of the product job market in 2025" — original survey data (FREE)
 10. Community Wisdom: Pivoting to AI PM (PAID)
-11. An AI glossary — common AI terms explained simply (FREE)
-12. Product manager is an unfair role. So work unfairly. (PAID)
+11. "Product manager is an unfair role. So work unfairly." (PAID)
+12. "Why you're so angry at work (and what to do about it)" (PAID)
 
 #### June 2025
-13. A guide to AI prototyping for product managers (PAID)
-14. Make product management fun again with AI agents (PAID)
-15. Why you're so angry at work (and what to do about it) (PAID)
-16. Podcast: Multiple guest episodes
+13. "An AI glossary" — common AI terms explained simply (FREE)
+14. "Why ChatGPT will be the next big growth channel" — Brian Balfour/Reforge (PAID)
+15. "How Intercom rose from the ashes by betting everything on AI" — Eoghan McCabe (PAID)
+16. "Inside the expert network training every frontier AI model" (PAID)
+17. "Why your AI product needs a different development lifecycle" (PAID)
 
 #### July 2025
-17. Essential reading for product builders — part 1 (PAID)
-18. Build your personal AI copilot — by Tal Raviv (PAID)
-19. Product Pass update/expansion (FREE)
-20. Why no productivity hack will solve your overwhelm (PAID)
+18. "What people are vibe coding (and actually using)" — 50+ real examples (FREE — massive viral hit)
+19. "Essential reading for product builders — part 1" (FREE)
+20. "Build your personal AI copilot" — Tal Raviv (PAID)
+21. "Why no productivity hack will solve your overwhelm" (PAID)
 
 #### August 2025
-21. Essential reading for product builders — part 2 (PAID)
-22. How tech's most resilient workers handle burnout — ARMOR framework (PAID)
-23. AI prompt engineering in 2025 — by Sander Schulhoff (PAID)
-24. Introducing Core 4: measuring product velocity (PAID)
+22. "25 proven tactics to accelerate AI adoption at your company" — Peter Yang (FREE)
+23. "How tech's most resilient workers handle burnout" — ARMOR framework (PAID)
+24. "AI prompt engineering in 2025" — Sander Schulhoff (PAID)
+25. "Introducing Core 4: measuring product velocity" (PAID)
+26. "Essential reading for product builders — part 2" (FREE)
 
 #### September 2025
-25. How to break out of autopilot and create the life you want — Graham Weaver (PAID)
-26. Why experts writing AI evals is creating fastest-growing companies (PAID)
-27. The ultimate guide to AEO: get ChatGPT to recommend your product (PAID)
-28. Community Wisdom editions (PAID)
+27. "A designer's guide to Cursor" — Elizabeth Lin (PAID)
+28. "How to build a team that can take a punch" — Hilary Gridley/Whoop (PAID)
+29. "What's in your stack: The state of tech tools in 2025" — original survey (FREE)
+30. "10 growth tactics that never work" — Elena Verna (PAID)
+31. "How to break out of autopilot and create the life you want" — Graham Weaver/Stanford (PAID)
+32. "Introducing Core 4" — product velocity framework (PAID)
+33. "How to build your product team from scratch" — Rohini Pandhi/Mercury (PAID)
 
 #### October 2025
-29. Everyone should be using Claude Code more — 50 ways non-technical people use it (FREE — massive viral hit)
-30. Introducing the GAIN framework for feedback (PAID)
-31. A builder's guide to living a long and healthy life (PAID)
-32. $46B of hard truths from Ben Horowitz (PAID)
+34. "Everyone should be using Claude Code more" — 50 ways non-technical people use it (FREE — biggest post of 2025)
+35. "Introducing the GAIN framework for feedback" (PAID)
+36. "A builder's guide to living a long and healthy life" (FREE)
+37. "$46B of hard truths from Ben Horowitz" (PAID)
 
 #### November 2025
-33. Ecosystem is the next big growth channel (PAID)
-34. How to build your product team from scratch — Rohini Pandhi (PAID)
-35. Product Pass: Stripe Atlas added (FREE)
-36. A holiday gift guide for tech people with taste (PAID)
+38. "Dumbest idea I've heard to $100M ARR: Inside the rise of Gamma" — Grant Lee (FREE)
+39. "Ecosystem is the next big growth channel" (PAID)
+40. "The complete beginner's guide to coding with AI" — from PRD to first code (FREE)
+41. "Product Pass: Stripe Atlas added" (FREE)
 
 #### December 2025
-37. How to spot a top 1% startup early (PAID)
-38. How to build your PM second brain with ChatGPT (PAID)
-39. Elena Verna: The new AI growth playbook for 2026 (PAID)
-40. AI tools are overdelivering: large-scale survey results (PAID)
-41. A year free of PostHog ($16,500 value) — Product Pass (FREE)
-42. We replaced our sales team with 20 AI agents — Jason Lemkin (PAID)
-43. Why LinkedIn is replacing PMs with AI-powered "full-stack builders" (PAID)
+42. "AI tools are overdelivering: large-scale productivity survey" — Noam Segal/Figma (FREE)
+43. "How to build your PM second brain with ChatGPT" (PAID)
+44. "How to spot a top 1% startup early" (PAID)
+45. "Elena Verna: The new AI growth playbook for 2026" — Lovable $200M ARR (FREE)
+46. "A year free of PostHog ($16,500 value)" — Product Pass (FREE)
+47. "We replaced our sales team with 20 AI agents" — Jason Lemkin/SaaStr (PAID)
+48. "Why LinkedIn is replacing PMs with full-stack builders" — Tomer Cohen/LinkedIn CPO (PAID)
+49. "The ultimate guide to AEO: get ChatGPT to recommend your product" — Ethan Smith (PAID)
+50. "The ultimate guide to negotiating your comp" (PAID)
 
 #### January 2026
-44. Best of Lenny's Newsletter 2025 — year-end recap (FREE)
-45. Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer (FREE)
-46. Claude Code for Product Managers — Teresa Torres (PAID)
-47. Advanced Claude Code techniques — John Lindquist (PAID)
+51. "Best of Lenny's Newsletter 2025" — year-end recap (FREE)
+52. "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer" (FREE)
+53. "How I AI: Claude Code for Product Managers" — Teresa Torres (PAID)
+54. "Advanced Claude Code techniques" — John Lindquist/egghead.io (PAID)
+55. "How to show up in any room with a low heart rate" — Sam Lessin (PAID)
+56. "ChatGPT apps are about to be the next big distribution channel" (FREE)
+57. "Marc Andreessen: The real AI boom hasn't even started yet" (FREE)
 
 #### February 2026
-48. How this PM uses MCPs to automate meeting prep, CRM, feedback synthesis (PAID)
-49. Guillermo Rauch: Vercel CEO on v0 hitting 3,200 PRs merged/day (PAID)
-50. The rise of the professional vibe coder — Lazar Jovanovic (PAID)
-51. How to build your own AI developer tools with Claude Code (PAID)
-52. Claude Skills explained: How to create reusable AI workflows (PAID)
-53. The complete beginner's guide to coding with AI (FREE)
-54. What people are vibe coding (and actually using) (FREE — viral)
-55. How this visually impaired engineer uses Claude Code (PAID)
+58. "A child psychologist's guide to working with difficult adults" — Dr. Becky Kennedy (FREE)
+59. "How this PM uses MCPs to automate meeting prep, CRM, feedback" — Reid Robinson/Zapier (PAID)
+60. "Guillermo Rauch: Vercel CEO on v0 hitting 3,200 PRs merged/day" (PAID)
+61. "The rise of the professional vibe coder" — Lazar Jovanovic/Lovable (PAID)
+62. "Claude Opus 4.6 vs GPT-5.3 Codex: 93,000 lines of code in 5 days" — How I AI (PAID)
+63. "How this visually impaired engineer uses Claude Code" — Joe McCormick (FREE)
+64. "Head of Claude Code: What happens after coding is solved" — Boris Cherny/Anthropic (FREE)
+65. "Sequoia CEO coach: Why it's never been easier to start, harder to scale" — Brian Halligan/HubSpot (FREE)
 
 #### March 2026
-56. Community Wisdom 176: Books, vibe coding with Figma, Claude Code vs others (PAID)
-57. How a 91-year-old vibe coded a complex event management system (PAID)
-58. The design process is dead — Jenny Wen/Anthropic (PAID)
-59. Engineers are becoming sorcerers — Sherwin Wu/OpenAI (PAID)
-60. Boris Cherny (Anthropic) on building Claude Code (PAID)
+66. Community Wisdom 176: Books, vibe coding with Figma, Claude Code vs others (PAID)
+67. "How a 91-year-old vibe coded a complex event management system" — John Blackman (FREE)
+68. "The design process is dead. Here's what's replacing it." — Jenny Wen/Anthropic (FREE)
+69. "Engineers are becoming sorcerers" — Sherwin Wu/OpenAI (FREE)
+70. "Boris Cherny on building Claude Code" — Anthropic (PAID)
 
-**Total:** ~60 posts in 12 months (~5/month average)
-**Free posts:** ~8-10 (13-17%) — strategically placed for virality and conversion
+**Total:** ~70+ posts in 12 months (~6/month average, plus weekly Community Wisdom = ~100+ total pieces)
+**Free posts:** ~25-30 (35-40%) — strategically placed for virality and conversion
+**Key pattern:** Free posts are either (a) viral content pieces, (b) Product Pass announcements, or (c) interview highlights with big names. Paid posts are frameworks, guides, and community content.
 
 ---
 
@@ -361,9 +382,45 @@ If you acquire 400 new paid subs/month at $15/mo:
 
 ---
 
-## Part 5: The Retention Problem — Root Causes
+## Part 5: Critical Strategic Differences You're Missing
 
-Looking at your retention curve vs. Lenny's, the biggest drop-off happens in months 2-4:
+### 5A: Lenny's "How I AI" Sub-Brand (Launched 2025)
+
+Lenny created an ENTIRELY NEW content vertical called **"How I AI"**, hosted by Claire Vo (not Lenny himself). This is a separate editorial voice within the newsletter covering AI tools specifically. This is a massive strategic move because:
+
+1. **It doubled his AI content output** without burning Lenny out
+2. **Claire Vo brings her own audience** and credibility (she's a PM leader)
+3. **It created a content flywheel** — "How I AI" episodes feed the main newsletter, and vice versa
+4. **You don't have this.** You're the sole voice on everything. Consider recruiting a co-writer or editor for a specific vertical.
+
+### 5B: Lenny's Free-to-Paid Ratio Is Actually ~35-40%, Not 13-17%
+
+My initial estimate was wrong. After the full research, Lenny makes ~25-30 out of ~70+ posts FREE — that's **35-40%** of his content. This is much higher than your ratio (~12-16%). His free content strategy is:
+
+- **Viral tentpole pieces** (Claude Code, vibe coding, AI glossary) → drives new free subscribers
+- **Product Pass announcements** (~1/month) → drives free-to-paid conversion
+- **Big-name interviews** (Marc Andreessen, Ben Horowitz, Elena Verna) → drives brand authority + social sharing
+- **Survey/data posts** (job market, AI productivity, tech tools) → drives citations and backlinks
+
+### 5C: Lenny's Audience Is Broader Than Yours
+
+| Segment | Lenny | You |
+|---------|-------|-----|
+| Product Managers | ~50% | ~70-80% |
+| Founders | ~25% | ~10% |
+| Engineers | Growing | Small |
+| Designers | Growing | Minimal |
+| Growth/Marketing | ~10% | ~5% |
+
+Lenny actively expanded beyond PMs with posts like "A child psychologist's guide to working with difficult adults" and "How to break out of autopilot." These aren't PM content — they're HUMAN content that happens to resonate with tech workers. This wider audience means more word-of-mouth and more recommendation cross-pollination.
+
+**Your opportunity:** You don't need to go as broad, but one "lifestyle/mindset" post per month could expand your reach significantly. Something like "The PM burnout crisis: what I learned from coaching 50 product managers" or "How AI is changing what it means to have a career."
+
+---
+
+## Part 6: The Retention Problem — Root Causes
+
+Looking at your retention curve vs. Lenny's, the biggest drop-off happens in months 1-4:
 - **Month 1→2:** You lose ~15% (81% → 66%), Lenny loses ~3% (93% → 90%)
 - **Month 2→3:** You lose ~9% (66% → 57%), Lenny loses ~2.5% (90% → 88%)
 - **Month 3→4:** You lose ~7% (57% → 50%), Lenny loses ~2.5% (88% → 85%)
@@ -386,7 +443,7 @@ Looking at your retention curve vs. Lenny's, the biggest drop-off happens in mon
 
 ---
 
-## Part 6: Tangible Improvement Plan — This Week & This Month
+## Part 7: Tangible Improvement Plan — This Week & This Month
 
 ### THIS WEEK (Mar 10-16, 2026)
 
@@ -460,7 +517,7 @@ Looking at your retention curve vs. Lenny's, the biggest drop-off happens in mon
 
 ---
 
-## Part 7: Priority Matrix — Impact vs Effort
+## Part 8: Priority Matrix — Impact vs Effort
 
 | Action | Impact on Retention | Impact on Growth | Effort | Priority |
 |--------|-------------------|-----------------|--------|----------|
@@ -475,7 +532,7 @@ Looking at your retention curve vs. Lenny's, the biggest drop-off happens in mon
 
 ---
 
-## Part 8: The February 2026 Anomaly
+## Part 9: The February 2026 Anomaly
 
 Both newsletters show a dramatic spike in Feb 2026:
 - **Lenny:** 98.7% month-1 retention (best ever) + 98.5% month-2
