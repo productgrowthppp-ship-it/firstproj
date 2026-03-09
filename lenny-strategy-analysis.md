@@ -132,39 +132,43 @@ If you acquire 400 new paid subs/month at $15/mo:
 **Source:** Complete XML sitemap (lennysnewsletter.com)
 **Legend:** 📝 Essay/Guide | 🎙️ Podcast | 🟡 Community Wisdom | 🟣 How I AI | 📚 Reads | 🔵 Product Pass
 
+**IMPORTANT NOTE ON COUNTS:** The sitemap uses `lastmod` dates, NOT publication dates. When Lenny edits/updates an old post, it gets a new lastmod and appears in our window. Dates with 5+ posts sharing the same lastmod are almost certainly batch edits of older content, not new publications. The "Raw sitemap" column below shows all URLs; the "Estimated new" column filters out likely batch-edit artifacts.
+
 #### Content Mix Summary
 
-| Type | Count | % of Total |
-|------|-------|-----------|
-| 📝 Essay/Guide | 184 | 57% |
-| 🎙️ Podcast | 61 | 19% |
-| 🟡 Community Wisdom | 53 | 16% |
-| 🟣 How I AI | 21 | 6% |
-| 📚 Reads | 5 | 2% |
-| 🔵 Product Pass | 1 | 0% |
-| **TOTAL** | **325** | **100%** |
+| Type | Raw Sitemap | Estimated New (genuine) |
+|------|------------|------------------------|
+| 📝 Essay/Guide | 184 | **~102** (~8/month) |
+| 🎙️ Podcast | 61 | **~51** (~4/month) |
+| 🟡 Community Wisdom | 53 | **~53** (~4/month, weekly) |
+| 🟣 How I AI | 21 | **~4** (launched Apr 2025, weekly since ~Jan 2026; most sitemap entries are batch-published) |
+| 📚 Reads | 5 | ~1 |
+| 🔵 Product Pass | 1 | ~1 |
+| **TOTAL** | **325** | **~212** |
 
-#### Monthly Cadence
+#### Monthly Cadence (Estimated Genuine New Posts)
 
-| Month | Total | Essays | Podcast | CW | How I AI | Reads | PP |
-|-------|-------|--------|---------|-----|----------|-------|-----|
-| March 2025 | 15 | 5 | 5 | 5 | 0 | 0 | 0 |
-| April 2025 | 13 | 6 | 2 | 4 | 1 | 0 | 0 |
-| May 2025 | 38 | 24 | 5 | 5 | 0 | 4 | 0 |
-| June 2025 | 26 | 16 | 6 | 4 | 0 | 0 | 0 |
-| July 2025 | 15 | 4 | 6 | 4 | 0 | 1 | 0 |
-| August 2025 | 37 | 23 | 9 | 5 | 0 | 0 | 0 |
-| September 2025 | 26 | 15 | 7 | 4 | 0 | 0 | 0 |
-| October 2025 | 17 | 12 | 2 | 3 | 0 | 0 | 0 |
-| November 2025 | 29 | 16 | 8 | 5 | 0 | 0 | 0 |
-| December 2025 | 21 | 10 | 6 | 5 | 0 | 0 | 0 |
-| January 2026 | 32 | 24 | 3 | 4 | 0 | 0 | 1 |
-| February 2026 | 47 | 23 | 2 | 4 | 18 | 0 | 0 |
-| March 2026 | 9 | 6 | 0 | 1 | 2 | 0 | 0 |
+| Month | Total | Essays | Podcast | CW | HIAI |
+|-------|-------|--------|---------|-----|------|
+| March 2025 | 15 | 5 | 5 | 5 | 0 |
+| April 2025 | 13 | 6 | 2 | 4 | 1 |
+| May 2025 | 16 | 8 | 3 | 5 | 0 |
+| June 2025 | 20 | 10 | 6 | 4 | 0 |
+| July 2025 | 15 | 4 | 6 | 4 | 0 |
+| August 2025 | 18 | 5 | 8 | 5 | 0 |
+| September 2025 | 21 | 11 | 6 | 4 | 0 |
+| October 2025 | 17 | 12 | 2 | 3 | 0 |
+| November 2025 | 16 | 8 | 3 | 5 | 0 |
+| December 2025 | 19 | 8 | 6 | 5 | 0 |
+| January 2026 | 14 | 6 | 3 | 4 | 0 |
+| February 2026 | 19 | 13 | 1 | 4 | 1 |
+| March 2026 | 9 | 6 | 0 | 1 | 2 |
 
-**Key insight:** Lenny publishes ~25 pieces/month on average. His content engine runs on **6 distinct verticals** operating in parallel: essays, podcast companions, weekly Community Wisdom, How I AI episodes, curated Reads, and Product Pass drops. This diversification means he never runs dry on content — even when he takes a week off essays, Community Wisdom and How I AI keep publishing.
+**Key insight:** Lenny's actual new-content cadence is **~16 pieces/month**, not 25. He publishes ~2 original essays/week (many guest-authored, with 5-6 draft rounds each), ~1 podcast companion/week, and 1 Community Wisdom/week. That's 3-4 posts/week of genuinely new content. He spends 10-20 hours on each self-authored essay — the quality bar is extremely high, and he publishes fewer than people assume.
 
-**Production scale:** Lenny's 325 posts in 12 months = ~6.3 posts/week. Even accounting for the fact that Community Wisdom and How I AI are lighter-weight formats, this is a massive content operation that creates continuous value delivery for paid subscribers.
+**How I AI:** Launched April 2025 with Claire Vo. Episodes are published as **free content** (not paid-only) to grow the vertical and attract new subscribers. The 21 sitemap entries mostly appeared in a batch on Feb 6, 2026, likely from a site restructure or SEO update — the actual weekly cadence has been ~1 episode/week since late 2025.
+
+**Lenny's Community (Slack):** Beyond the newsletter, Lenny runs a **private Slack community** for paid subscribers that is arguably his single strongest retention lever. The Community Wisdom posts are curated highlights from this Slack — but the Slack itself is where the daily value lives. Members get peer-to-peer advice, AMAs with guests (Yuhki Yamashita, Claire Vo), job referrals, and a network effect that makes canceling feel like leaving a professional network, not just unsubscribing from emails. This is the moat that's hardest to replicate.
 
 ---
 
@@ -201,24 +205,36 @@ If you acquire 400 new paid subs/month at $15/mo:
 | February 2026 | 32 | 12 | 20 | 0 | 0 |
 | March 2026 | 44 | 9 | 35 | 0 | 0 |
 
-**Key insight:** Your podcast episodes (62 total) represent a HUGE content asset that you're publishing as standalone Substack posts. But they cluster heavily in Feb-Mar 2026 (55 of 62), suggesting you batch-published back-catalog podcast companions. Your core newsletter cadence (essays) dropped from ~10-13/month in early 2025 to 6-9/month by late 2025.
+**Corrected counts:** 55 of your 62 podcast Substack posts were batch-published in Feb-Mar 2026 (all sharing the same lastmod dates). Your genuine new podcast companion posts during the year were ~7. Your actual content engine is **~113 essays + ~7 podcast posts + 5 company deep dives = ~125 genuine new pieces**, or about **~10/month**.
 
-**The "How Cursor/Linear/Dovetail Grows" series** (5 posts) is your closest equivalent to Lenny's podcast companion format — company deep dives that create repeatable, brandable content. You should expand this.
+**The "How Cursor/Linear/Dovetail Grows" series** (5 posts) is your closest equivalent to Lenny's branded recurring content. You should expand this — it's the one format where you have a named series people can follow.
 
 ---
 
-### Head-to-Head Content Mix Comparison
+### Head-to-Head Content Mix Comparison (Corrected for Batch Edits)
 
-| Metric | Lenny | Product Growth | Gap |
-|--------|-------|---------------|-----|
-| **Total posts (12 months)** | 325 | 182 | Lenny publishes 1.8x more |
-| **Essays/Guides** | 184 (57%) | 113 (62%) | Similar ratio, but Lenny has 1.6x more volume |
-| **Podcast companions** | 61 (19%) | 62 (34%) | You actually match on podcast volume! |
-| **Recurring paid-only formats** | 53 CW + 21 HIAI = 74 (23%) | 0 (0%) | **Lenny's biggest retention advantage** |
-| **Content verticals** | 6 | 2-3 | Lenny has 2-3x more content types |
-| **Avg posts/month** | 25 | 14 | Lenny ships nearly 2x per month |
+| Metric | Lenny | Product Growth | Takeaway |
+|--------|-------|---------------|----------|
+| **Genuine new posts (12 mo)** | ~212 | ~125 | Lenny ~1.7x more, but not 1.8x |
+| **Essays/Guides** | ~102 (~8/mo) | ~113 (~9/mo) | **You actually publish MORE essays** |
+| **Podcast companions** | ~51 (~4/mo) | ~7 (~0.5/mo) | Lenny 7x more — he writes up every podcast |
+| **Community Wisdom** | 53 (weekly, paid) | 0 | **Lenny's #1 retention lever** |
+| **How I AI** | ~4+ (growing, free) | 0 | New vertical, free for growth |
+| **Community (Slack)** | Active private Slack | No equivalent | **Lenny's #1 churn prevention moat** |
+| **Avg genuine posts/month** | ~16 | ~10 | Lenny ships ~60% more |
 
-**The critical finding:** Lenny has **74 recurring-format posts** (Community Wisdom + How I AI) that are paid-only and create weekly appointment content. You have **zero** equivalent recurring formats. This is likely the single biggest driver of the retention gap. A subscriber who gets a weekly Community Wisdom post on Saturday feels like the subscription is "alive" — it's a ritual, not just occasional essays. You need your own version of this.
+**The corrected picture is actually more interesting than the raw numbers suggested:**
+
+1. **You match Lenny on essay volume** (~8-9/month each). The difference is NOT that he writes more — it's that his essays are higher-quality, more deeply researched (10-20 hrs each, 5-6 draft rounds for guest posts), and feature bigger-name practitioners.
+
+2. **Lenny's real retention advantages are the community and recurring formats**, not raw volume:
+   - **Private Slack community** — daily peer interaction, AMAs, job referrals. Canceling the newsletter means losing access to the network. This is arguably worth more than the newsletter itself for many subscribers.
+   - **Weekly Community Wisdom** — curated Slack highlights that create Saturday "appointment content." 53 posts/year of steady, predictable value delivery.
+   - **Podcast companion posts** — every podcast episode gets a written summary. You have 80+ podcast episodes but only ~7 written companions.
+
+3. **How I AI is NOT paid-only** — it's free content designed to grow the brand and attract new subscribers via a different entry point (AI tools). This is smart: Lenny uses free How I AI episodes as top-of-funnel, then converts to paid via the newsletter + community.
+
+4. **Your biggest gap isn't content quantity — it's the ecosystem.** Lenny sells a subscription to a *system* (newsletter + community + podcast + Product Pass tools + How I AI). You sell a subscription to a newsletter. When someone considers canceling Lenny, they'd lose their Slack network, their Product Pass tool access, their Community Wisdom ritual. When someone considers canceling you, they just... stop getting emails.
 
 ---
 
