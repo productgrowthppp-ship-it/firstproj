@@ -55,6 +55,17 @@ Given his total paid base of ~19,400 and high retention, monthly new subs must r
 
 **Your best months:** Sep 25 (594), Oct 25 (563), Feb 26 (502) — likely driven by strong content or promotions.
 
+### Your Revenue Context (from Build in Public disclosures)
+
+| Month | Total Revenue | Newsletter | Podcast | Sponsors | Coaching | Other |
+|-------|-------------|-----------|---------|----------|----------|-------|
+| Jun 25 | $64,432 | $33,000 | $18,000 | $12,000 | $1,400 | — |
+| Aug 25 | $93,321 | $38,000 | $24,000 | $23,000 | $5,200 | $2,800 |
+
+You crossed **$1M ARR in August 2025**. But critically, you've described paid subscribers as "essentially flat month over month" due to churn. At ~5% monthly churn with a 10% growth target, you need 15% net new subs monthly — which you called "exhausting and unsustainable."
+
+**This confirms the retention data:** Your ~5% monthly churn rate is 3-4x Lenny's ~1.5%. Fixing churn is the single highest-leverage thing you can do.
+
 ---
 
 ## Part 2: Retention Curve Comparison — The Core Problem
@@ -213,84 +224,102 @@ If you acquire 400 new paid subs/month at $15/mo:
 ### Your Posts (Product Growth, Mar 2025 - Mar 2026)
 
 **Cadence:** ~2 posts/week, mix of deep dives, tutorials, podcast write-ups, and AI Update posts
+**Key collaborator:** Miqdad Jaffer (OpenAI) — co-authors many AI PM pieces
+**Podcast:** "The Growth Podcast" (renamed Dec 2025), 65K+ listeners, 25K YT subs
 
 #### March 2025
-1. The 2025 Product Strategy Playbook (PAID)
-2. Various AI PM and career content
+1. "11 Lessons From 50 Episodes + The Podcast's Future" (FREE)
+2. "This PM Went From $50k to $750k/Year — Here's How" — Satish podcast (PAID)
+3. "The 2025 Product Strategy Playbook" — with Miqdad Jaffer (PAID)
+4. "How ACTUAL Job Seekers Have Succeeded in this Market" (FREE)
 
 #### April 2025
-3. Inside the $300B AI Giant: How to Land Your Dream Job at OpenAI (PAID)
-4. Amazon VP: The Magic Loop Framework to Get Promoted (PAID)
-5. Cracking the PM Interview — Gayle McDowell podcast (FREE/PAID)
+5. "Your Guide to AI Product Strategy" — with Miqdad Jaffer (PAID)
+6. "Complete Course: AI Product Management" — with Pawel Huryn (PAID)
+7. Cracking the PM Interview — Gayle McDowell podcast (PAID)
 
 #### May 2025
-6. The AI Job Search Tool Market: Everything You Need to Know (PAID)
-7. 11 Lessons From 50 Episodes + The Podcast's Future (FREE)
-8. How to Use Claude for Work (PAID)
-9. PM is Dead. So Now What? | Claire Vo episode (PAID)
+8. "How to Land a $700K+ AI PM Job: Complete Guide 2025" — Alex Rechevskiy podcast (PAID)
+9. "How to Use Claude for Work" (PAID)
 
 #### June 2025
-10. Tutorial of Top 5 AI Prototyping Tools: Bolt, Lovable, v0, Replit, Cursor (PAID)
-11. 500,000 Professionals Have Used His Book To Crack Interviews (podcast)
-12. Ultimate Guide to AI Prototyping Tools (PAID)
-13. Context Engineering Guide: Step-by-Step RAG, Fine-tuning, Prompt Engineering (PAID)
-14. What I Learned From Filming 80 Podcast Episodes (FREE)
-15. Master the Product Metrics Interview (PAID)
+10. "Tutorial of Top 5 AI Prototyping Tools: Bolt, Lovable, v0, Replit, Cursor" (PAID)
+11. "500,000 Professionals Have Used His Book To Crack Interviews" (podcast)
+12. "Ultimate Guide to AI Prototyping Tools" (PAID)
+13. "Context Engineering Guide: Step-by-Step RAG, Fine-tuning, Prompt Engineering" — with Miqdad Jaffer (PAID)
+14. "What I Learned From Filming 80 Podcast Episodes" (FREE) — podcast now profitable, 12K YT subs
+15. "Master the Product Metrics Interview" (PAID)
+16. "How to Break Into Product Management: The Playbook" (PAID)
 
 #### July 2025
-16. Prompt Engineering in 2025: The Latest Best Practices — Miqdad Jaffer (PAID)
-17. AI Agents: The Ultimate Guide for PMs (PAID)
-18. AI Product Discovery: Complete Course (PAID)
-19. This $20M AI Founder Is Challenging Elon and Sam Altman | Roy Lee, Cluely (podcast)
-20. How Cursor Grows (PAID)
-21. How Zoom Took Over The World (PAID)
+17. "How Cursor Grows" — 0 to $100M ARR in 24 months (PAID)
+18. "Prompt Engineering in 2025: The Latest Best Practices" — with Miqdad Jaffer (PAID)
+19. "AI Agents for PMs: Practical Guide to Build & Use in 2025" — demos in Zapier, n8n, Make.com (PAID) ⭐ 185 likes
+20. "AI Product Discovery: Complete Course" (PAID)
+21. "This $20M AI Founder Is Challenging Elon and Sam Altman" — Roy Lee/Cluely (podcast)
+22. "How Zoom Took Over The World" (PAID)
 
 #### August 2025
-22. AI PRDs: Everything You Need to Know (PAID)
-23. Complete Courses in PM, AI PM, and Getting a PM Job — "3 years of writing" (FREE)
-24. The Lean Product Playbook 10 Years Later (podcast)
-25. AI PM Crash Course: Prototyping → Observability → Evals (PAID)
-26. $93,321 in August — Build in Public update (FREE/Notes)
+23. "AI PRDs: Everything You Need to Know" (PAID) ⭐ 152 likes
+24. "Complete Courses in PM, AI PM, and Getting a PM Job" — 3 years of writing (FREE) ⭐ 104 likes
+25. "The Lean Product Playbook 10 Years Later" (podcast)
+26. "AI PM Crash Course: Prototyping → Observability → Evals" (PAID)
+27. "Build in Public Month 3: $93K, Crossed $1M ARR" (FREE)
 
 #### September 2025
-27. How to Build a $80M+ Startup Solo with AI Tools | Colin Matthews (podcast)
-28. AI PM's Guide to LLM Judges — Hamel Husain, Shreya Shankar (PAID)
-29. Behind v0: Tutorial and Story from the CPO (PAID)
-30. He Runs a $2M/Yr One-Person Business (podcast)
+28. "How to Create an AI Product Roadmap (That Actually Works)" — with Miqdad Jaffer (PAID)
+29. "The Complete Guide to Acing PM Interviews (2025 Edition)" (PAID)
+30. "PM is Dead. So Now What?" — Claire Vo episode (PAID)
+31. "AI PM's Guide to LLM Judges" — Hamel Husain, Shreya Shankar (PAID)
+32. "Behind v0: Tutorial and Story from the CPO" (PAID)
+33. "He Runs a $2M/Yr One-Person Business" (podcast)
+34. "How to Build a $80M+ Startup Solo with AI Tools" — Colin Matthews (podcast)
 
 #### October 2025
-31. Steal My PM Prompt Library (PAID)
-32. AI Product Sense: Your Complete Guide — 5,500 words (PAID)
-33. AI Evals: Everything You Need to Know to Start (PAID)
-34. We Built an AI Employee in 62 mins (Cursor, ChatGPT, Gibson, Crew AI) (PAID)
-35. Career-Launching Companies: These are the Companies You Should Work For (PAID)
+35. "AI PM Learning Roadmap" — comprehensive learning path (PAID)
+36. "OpenAI's Framework for AI Product Sense" — 5,500 words, with Miqdad Jaffer (PAID)
+37. "Steal My PM Prompt Library" — 82 battle-tested prompts (PAID)
+38. "AI Evals: Everything You Need to Know to Start" (PAID)
+39. "We Built an AI Employee in 62 mins" (Cursor, ChatGPT, Gibson, Crew AI) (PAID)
+40. "Career-Launching Companies: The Companies You Should Work For" (PAID)
 
 #### November 2025
-36. Practical AI Agents for PMs: Tool Guide (PAID)
-37. How to Break Into Product Management: The Playbook (PAID)
-38. Various podcast episodes
+41. "Practical AI Agents for PMs: Tool Guide" (PAID)
+42. "How Linear Grows" — $1.25B valuation, 100 employees, Linear for Agents (PAID)
+43. "System Design Interview for (Technical) PMs: How to Ace It" (PAID)
+44. "Reforge Growth Crash Course in 82 Minutes" — Brian Balfour (podcast)
+45. "The Marty Cagan Episode: Product Management Crash Course in 61 Minutes" (podcast)
 
 #### December 2025
-39. Announcing Aakash's Bundle — paid annual subscribers get product team stack (FREE)
-40. Premium Resources compilation (PAID)
+46. "Announcing Aakash's Bundle" — $28K+ in tools: Arize, Linear, Mobbin, Dovetail, Descript, Reforge Build (FREE)
+47. "Premium Resources" — updated resource hub (PAID)
+48. "How to Become an AI Product Manager with No Experience" — Dr. Nancy Li (PAID)
+49. "Context Engineering Guide: RAG, Fine-tuning, Prompt Engineering" — with Miqdad Jaffer (PAID)
+50. Podcast renamed to "The Growth Podcast" (branding change)
 
 #### January 2026
-41. Product Growth's 2025 Year in Review: AI PM Course, PM MBA & Career Roadmaps (FREE)
-42. AI Product Success Metrics Interviews (PAID)
+51. "Unicorn Candidate-Market Fit" — most frequent job search advice (FREE)
+52. "Product Growth's 2025 Year in Review" — 90 deep dives, 70 podcasts, 6 infographics (FREE)
+53. "Sales Tech Market Map 2025: The $30B Industry Breakdown" — 6 months of research, ~300 companies (PAID)
+54. "AI Product Success Metrics Interviews" — "How would you measure success of GPT-6?" (PAID)
 
 #### February 2026
-43. You Should Be Using Claude Cowork: Complete Guide (PAID)
-44. How to build product-led growth in 2026 (the complete 7-layer playbook) (PAID)
-45. How to Do AI-Powered Discovery | Caitlin Sullivan (podcast)
-46. The Ultimate Guide to Replit (PAID)
-47. Amplitude Principal AI PM: Vibe PMing with Claude Code, Cursor (PAID)
-48. Post about Zapier rating PMs on AI usage (PAID)
+55. "Guide to OpenClaw (formerly Clawdbot/Moltbot)" (PAID)
+56. "Zapier Now Rates PMs on Their AI Usage" — Zapier + Shopify AI fluency rubrics (FREE)
+57. "Claude Code with Opus-4.6" — implications for PMs (PAID)
+58. "The Ultimate Guide to Replit" (PAID)
+59. "How to Do AI-Powered Discovery" — Caitlin Sullivan, building agents for UXR (PAID)
+60. "How to Build Product-Led Growth in 2026 (Complete 7-Layer Playbook)" — Canva, Figma, Attio case studies (PAID)
+61. "Amplitude Principal AI PM: Vibe PMing with Claude Code, Cursor" (PAID)
+62. "Complete Guide to NotebookLM" (PAID)
 
 #### March 2026
-49. Various posts (partial month)
+63. "How to Build a PM GitHub That Gets You Hired (2026 Guide)" (PAID)
+64. "How to Price AI Products: The Complete Guide for PMs" — 50 AI startups mapped (PAID)
 
-**Total:** ~50+ posts in 12 months (~4-5/month average)
-**Free posts:** ~6-8 (12-16%)
+**Total:** ~65+ identified posts in 12 months (~5-6/month average, likely ~100 total including AI Updates)
+**Free posts:** ~10-12 (15-18% of identified posts)
+**Key pattern:** Almost all free posts are meta/milestone posts (year in review, podcast reflections, Build in Public). Very few free "content" posts that could go viral — this is a major difference from Lenny.
 
 ---
 
@@ -393,7 +422,9 @@ Lenny created an ENTIRELY NEW content vertical called **"How I AI"**, hosted by 
 3. **It created a content flywheel** — "How I AI" episodes feed the main newsletter, and vice versa
 4. **You don't have this.** You're the sole voice on everything. Consider recruiting a co-writer or editor for a specific vertical.
 
-### 5B: Lenny's Free-to-Paid Ratio Is Actually ~35-40%, Not 13-17%
+### 5B: Your Free Posts Are the WRONG Type of Free
+
+Lenny's free-to-paid ratio is ~35-40%, not 13-17% as initially estimated.
 
 My initial estimate was wrong. After the full research, Lenny makes ~25-30 out of ~70+ posts FREE — that's **35-40%** of his content. This is much higher than your ratio (~12-16%). His free content strategy is:
 
@@ -401,6 +432,8 @@ My initial estimate was wrong. After the full research, Lenny makes ~25-30 out o
 - **Product Pass announcements** (~1/month) → drives free-to-paid conversion
 - **Big-name interviews** (Marc Andreessen, Ben Horowitz, Elena Verna) → drives brand authority + social sharing
 - **Survey/data posts** (job market, AI productivity, tech tools) → drives citations and backlinks
+
+**Compare your free posts:** "11 Lessons From 50 Episodes," "Year in Review," "Build in Public Month 3," "Unicorn Candidate-Market Fit." These are **meta/navel-gazing posts** — interesting to existing fans but not shareable to new audiences. Your free posts talk about YOU. Lenny's free posts deliver VALUE to the reader. This is the single biggest fixable mistake in your strategy.
 
 ### 5C: Lenny's Audience Is Broader Than Yours
 
